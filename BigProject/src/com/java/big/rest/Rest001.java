@@ -15,6 +15,7 @@ public class Rest001 {
 	
 	@RequestMapping(value = "/callExample")
 	public void callExampleService() {
+		
 		generalservice.example();
 	}
 
